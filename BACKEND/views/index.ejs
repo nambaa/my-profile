@@ -1,0 +1,14 @@
+<h1>hello</h1>
+<body>
+  <center><%=message%> we have a problem</center>
+</body>
+
+<body>
+  hobbies of<%=data.name%> are:<br />
+
+  <ul>
+    <% data.hobbies.forEach((item)=>{%>
+    <li><%=item%></li>
+    <%});%>
+  </ul>
+</body>
